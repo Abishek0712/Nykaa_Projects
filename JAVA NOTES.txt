@@ -125,7 +125,7 @@ encapsule+capsule= encapsualtion
 
 code= class+variables+objects+methods
 Data = given datas
-
+1234
 
 Inheritance:
 * Accessing one class property into another class using "extends" keyword.
