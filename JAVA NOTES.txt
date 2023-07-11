@@ -1,0 +1,177 @@
+Java:
+JamesGosling 1994-1995 
+SunMicrosystems - first released at 1995
+
+
+JAVA: 
+========
+Java is a highlevel programming language developed by SUN MICROSYSTEMS
+simple programming language 
+
+Writing compiling and debugging is easy
+compiling - to verify the codes
+debugging - to find out the errors
+java codes can be reused 
+
+
+*************************************************************************************************************************************************************
+
+java Features (or)
+=====================
+importance of java (or)
+why do you choose java?
+
+Platform Independent_ java compiler convert source code into byte (binary)code.
+this byte code can be run in any platform
+source code- human language
+binary code- computer language( a= 31.548, b =587845)
+(platform--> OS=windows ,mac, unix,ubuntu)
+
+Open Source_ the distributor has a source code of the application for public access
+
+Secured_ java works as a virtual firewall between computers and applications
+they dont allow any third parties( scam, virus pop ups)
+
+MultiThreading_more than one task can be completed at one time( note pad+note pad+note)
+
+Multitask_different task can be completed at a time( notepad+chrome+opera) 
+
+Portable_ WORA - write once run anywhere (any OS)
+
+*************************************************************************************************************************************************************
+Architecture of java:
+========================
+JDK = JRE+JVM
+JDK - Java Development Kit 
+*To develope java code JDK has to be installed
+*it contains development tools
+*version( interview q)
+	1.0 -1.15(latest update october 2020)
+	standard version - 1.8
+
+JRE - Java Runtime Environment
+ * it contains predefined library files(.class files)
+ *it helps to compile the programs
+
+
+JVM - Java Virtual Machine
+* it helps to allocate memory
+*it is not physically exists
+
+
+*************************************************************************************************************************************************************
+Coding Standards
+=====================
+Pascal standard- 
+-->when we create a project name,class name -Automation_Testing
+
+Camel standard - 
+-->when we create a method name,object ,variables - automation_Testing
+
+*************************************************************************************************************************************************************
+Project Creation
+
+Project
+Package
+Class
+method
+*************************************************************************************************************************************************************
+Garbage Collection
+
+unreferenced objects will be deleted automatically
+this method is possible only in java
+
+
+*************************************************************************************************************************************************************
+
+oops:
+=====
+Object Oriented Programming structure:
+
+Is a programming paradigm based on the concepts of objects that contains datas and methods
+
+Note: The structure of implementation in which our programs are organised in the form of
+
+
+	class
+	methods
+	objects
+
+class= collection of methods and objects
+methods= set of actions to be performed
+object = instance of class
+	it helps to call the method
+	it helps to allocate new memory
+
+
+*************************************************************************************************************************************************************
+
+OOPS CONCEPTS
+===================
+There are 4 concepts in oops:
+1.Encapsulation
+2.Inheritance
+3.Polymorphism
+   * Overloading
+   * Overriding
+4.Abstraction
+.   *Abstract
+   *Interface
+
+Encapsulation:     
+     
+*the process of Binding code & Data together as a single entity(information).
+encapsule+capsule= encapsualtion
+
+code= class+variables+objects+methods
+Data = given datas
+
+
+Inheritance:
+* Accessing one class property into another class using "extends" keyword.
+*Relationship between parent class and the child class
+five types:
+
+single inheritance:
+===================
+One Parent class is accessed by one child class.
+
+Multiple Inheritance:
+=====================
+More than one parent class accessed by one child class.
+
+* It is not possible in java.
+*There will be a priority issue btw  parent & child class.
+*It can be overcome by using interface.
+
+Multilevel Inheritance:
+=======================
+One class  accessed by one child class  which is being accessed by another
+child class 
+
+Hierarchical Inheritance:
+=========================
+Once parent class accessed by more than two child class.
+
+Hybrid Inheritance:
+===================
+Combination of single & multiple.
+combination of any two inheritance
+
+**********************************************************************************************************************************************
+
+Polymorphism:
+poly---> Many
+morphism-->Forms
+One task can be completed by many ways.
+
+Overloading:
+============
+
+In the same class ,method names are  same
+Arguments or parameter is different.
+based on:
+ *Datatype will differ.
+ *Datatype count will differ.
+ *Datatype order will differ.
+
